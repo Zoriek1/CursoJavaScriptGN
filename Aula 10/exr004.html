@@ -20,9 +20,30 @@
 
 </head>
 <body>
-    <div id="area">
+    <div id="area" onclick = "clicar()" onmouseenter="passou()" onmouseleave="saiu()">
         interaja...
 
     </div>
+
+
+
+    <script>
+        var area = window.document.getElementById('area')
+
+        function clicar() {
+            area.innerText = 'CLICOU!'
+            area.style.backgroundColor = "Green"
+        }
+
+        function passou(){
+            area.innerText = 'Passou!'
+        }
+        function saiu(){
+            area.innerText = 'Interaja...'
+            area.style.backgroundColor = "red"
+        }
+
+        
+    </script>
 </body>
 </html>
