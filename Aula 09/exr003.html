@@ -25,9 +25,14 @@
     <h1> ESTE È O TITULO</h1>
     <p>Este é o subtitulo</p>
     <p>Aprendendao a usar o <strong>DOM</strong> no java Script</p>
+    <div id = "1212" > CLIQUE EM MIM! </div> 
 
     <script>
        
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var d = window.document.getElementById("1212") 
+        d.innerText = "Olá Mundo!"
+        d.style.backgroundColor = "Green"
     </script>
 </body>
 </html>
