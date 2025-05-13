@@ -25,3 +25,18 @@ font-style: italic;
 
 }
 
+div {
+    text-align: center;
+    align-items: center;
+    padding: 6px;
+    
+    
+}
+#foto img{
+
+ width: 85%;
+ height: auto;
+ object-fit: cover;
+
+}
+
